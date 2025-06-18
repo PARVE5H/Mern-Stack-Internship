@@ -34,6 +34,8 @@ This repository contains all the tasks and projects I’m completing during my *
 - REST APIs
 - Socket.IO
 - Chrome Extension APIs
+- TailwindCSS
+- Postman
 - Git & GitHub
 
 ---
