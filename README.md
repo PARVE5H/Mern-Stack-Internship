@@ -17,7 +17,7 @@ This repository contains all the tasks and projects I’m completing during my *
 
 | Task No. | Title                             | Description                                                              | Status       | Live Link |
 |----------|-----------------------------------|--------------------------------------------------------------------------|--------------|-----------|
-| Task 1   | Weather App                       | Fetch and display live weather data using a public API in React          | ✅ Completed | *(Add Link)* |
+| Task 1   | Weather App                       | Fetch and display live weather data using a public API in React          | ✅ Completed |           |
 | Task 2   | Real-Time Chat App                | Build a real-time messaging app using React, Node.js, and Socket.IO      | ⏳ Pending   |           |
 | Task 3   | Live Collaboration Tool           | Create a live multi-user collaboration whiteboard/editor                 | ⏳ Pending   |           |
 | Task 4   | Productivity Chrome Extension     | Design a productivity manager using Chrome APIs and full MERN backend    | ⏳ Pending   |           |
@@ -42,6 +42,7 @@ This repository contains all the tasks and projects I’m completing during my *
 
 👨‍💻 Parvesh Bansal  
 🎓 MCA Student at DCSA,KUK 
+
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/parvesh-bansal)  
 📂 [GitHub Profile](https://github.com/PARVE5H)
 
