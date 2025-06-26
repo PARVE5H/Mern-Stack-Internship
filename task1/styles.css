@@ -1,0 +1,49 @@
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #545454;
+  padding: 12px;
+  border-radius: 16px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#city-input {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #2e2d2d;
+  color: #fff;
+}
+
+#btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #2958ce;
+  color: #fff;
+  transition: background-color 1s ease-in-out;
+}
+
+#btn:hover {
+  background-color: #1c47b6;
+}

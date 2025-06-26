@@ -3,9 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Weather App</title>
   </head>
   <body>
-    <h1>I will update this section later</h1>
+    <div class="container">
+      <h1>Weather App</h1>
+      <div id="input-container">
+        <input type="text" id="city-input" placeholder="Enter City Name" />
+        <button type="submit" id="btn">Show Weather</button>
+      </div>
+      <div id="result-container" class="hidden">
+        <p id="city-name"></p>
+        <p id="temperature"></p>
+        <p id="humidity"></p>
+        <p id="feels-like"></p>
+        <p id="description"></p>
+        <p id="wind-speed"></p>
+      </div>
+      <p id="no-result" class="hidden">
+        No result available for your city. Please try again.
+      </p>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
