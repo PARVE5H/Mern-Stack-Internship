@@ -17,7 +17,7 @@ This repository contains all the tasks and projects I’m completing during my *
 
 | Task No. | Title                             | Description                                                              | Status       | Live Link |
 |----------|-----------------------------------|--------------------------------------------------------------------------|--------------|-----------|
-| Task 1   | Weather App                       | Fetch and display live weather data using a public API in React          | ✅ Completed |           |
+| Task 1   | Weather App                       | Fetch and display live weather data using a public API in React          | ✅ Completed | [Preview](https://parve5h.github.io/vayutrack) |
 | Task 2   | Real-Time Chat App                | Build a real-time messaging app using React, Node.js, and Socket.IO      | ⏳ Pending   |           |
 | Task 3   | Live Collaboration Tool           | Create a live multi-user collaboration whiteboard/editor                 | ⏳ Pending   |           |
 | Task 4   | Productivity Chrome Extension     | Design a productivity manager using Chrome APIs and full MERN backend    | ⏳ Pending   |           |
