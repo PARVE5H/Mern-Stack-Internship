@@ -28,9 +28,3 @@ dist-ssr
 node_modules
 node_modules/
 
-
-//confiq files
-tailwind.config.js
-vite.config.js
-eslint.config.js
-jsconfig.js
