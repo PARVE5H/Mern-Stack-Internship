@@ -1,9 +1,13 @@
 # 🚀 MERN Stack Internship – Codtech IT Solutions Pvt. Ltd.
 
-> **Duration:** 45 Days  
-> **Tech Stack:** MongoDB, Express.js, React.js, Node.js  
-> **Internship Mode:** Remote  
-> **Status:** 🟢 Ongoing
+> **Company:** Codtech IT Solutions Pvt. Ltd. <br>
+> **Name:** Parvesh Kumar <br>
+> **Intern Id:** CT06DG1325  <br>
+> **Domain:** MERN Stack       <br>
+> **Duration:** 6 weeks   <br>
+> **Mentor:** Mr. Neela Santosh  <br>
+> **Internship Mode:** Remote    <br>
+> **Status:** 🟢 Ongoing  <br>
 
 ---
 
