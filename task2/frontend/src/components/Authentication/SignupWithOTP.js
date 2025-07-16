@@ -4,7 +4,8 @@ import {
   Fieldset,
   Input,
   VStack,
-  Group,
+  Box,
+  Text,
 } from "@chakra-ui/react";
 import { Toaster, toaster } from "../ui/toaster";
 import { PasswordInput } from "../ui/password-input";
@@ -239,26 +240,12 @@ const SignupWithOTP = () => {
               Email
               <Field.RequiredIndicator />
             </Field.Label>
-            <Group attached w={"full"} maxW={"100%"}>
-              <Input
-                flex={1}
-                type="email"
-                value={email}
-                placeholder="Enter a valid email address"
-                onChange={(e) => setEmail(e.target.value.toLowerCase())}
-              />
-              <Button
-                colorPalette="teal"
-                bgColor="#38b2ac"
-                onClick={submitHandler}
-                loading={loading}
-                disabled={!isEmailValid(email) || otpSent}
-                display={"flex"}
-                flexDirection={"column"}
-              >
-                Verify Email
-              </Button>
-            </Group>
+            <Input
+              type="email"
+              value={email}
+              placeholder="Enter a valid email address"
+              onChange={(e) => setEmail(e.target.value.toLowerCase())}
+            />
             <Field.HelperText color={"red"}>
               {email.length > 5 &&
                 !isEmailValid(email) &&
@@ -274,39 +261,48 @@ const SignupWithOTP = () => {
                   Enter Verification Code
                   <Field.RequiredIndicator />
                 </Field.Label>
-                <Group attached w={"full"} maxW={"100%"}>
-                  <Input
-                    flex={1}
-                    type="text"
-                    placeholder="Enter 6-digit code"
-                    onChange={(e) => setOtp(e.target.value.replace(/\D/g, ""))}
-                    value={otp}
-                    maxLength="6"
-                    textAlign="center"
-                    fontSize={{ base: "lg", md: "xl" }}
-                    letterSpacing={{ base: "none", sm: "0.2em" }}
-                    onKeyDown={(e) => {
-                      if (e.key === "Enter") verifyOTP();
-                    }}
-                    bg={{ base: "gray.50", _dark: "gray.700" }}
-                    borderColor="teal.500"
-                    borderWidth="2px"
-                    color={{ base: "gray.900", _dark: "gray.100" }}
-                    _placeholder={{
-                      color: { base: "gray.500", _dark: "gray.400" },
-                    }}
-                    fontFamily="monospace"
-                  />
+                <Input
+                  width={"100%"}
+                  type="text"
+                  placeholder="Enter 6-digit code"
+                  onChange={(e) => setOtp(e.target.value.replace(/\D/g, ""))}
+                  value={otp}
+                  maxLength="6"
+                  textAlign="center"
+                  fontSize={{ base: "lg", md: "xl" }}
+                  letterSpacing={{ base: "none", sm: "0.2em" }}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter") verifyOTP();
+                  }}
+                  bg={{ base: "gray.50", _dark: "gray.700" }}
+                  borderColor="teal.500"
+                  borderWidth="2px"
+                  color={{ base: "gray.900", _dark: "gray.100" }}
+                  _placeholder={{
+                    color: { base: "gray.500", _dark: "gray.400" },
+                  }}
+                  fontFamily="monospace"
+                />
+                <Box
+                  width={"100%"}
+                  display={"flex"}
+                  justifyContent={"space-between"}
+                >
+                  <Field.HelperText>Code expires in 5 minutes</Field.HelperText>
+
                   <Button
-                    colorPalette="teal"
-                    display={"flex"}
+                    size={"xs"}
+                    variant={"plane"}
+                    color={"gray.500"}
+                    fontSize={"xs"}
+                    alignSelf={"end"}
                     onClick={resendOTP}
                     loading={resendLoading}
+                    disabled={resendLoading}
                   >
                     Resend OTP
                   </Button>
-                </Group>
-                <Field.HelperText>Code expires in 5 minutes</Field.HelperText>
+                </Box>
               </Field.Root>
 
               <Button
@@ -316,7 +312,7 @@ const SignupWithOTP = () => {
                 loading={verificationLoading}
                 disabled={!otp || otp.length !== 6}
               >
-                Verify & Register
+                Verify OTP & Register
               </Button>
 
               <Button
@@ -359,8 +355,17 @@ const SignupWithOTP = () => {
                   onChange={(e) => setConfirmPassword(e.target.value)}
                 />
               </Field.Root>
-              <Button colorPalette="teal" bgColor="#38b2ac" disabled={!otpSent}>
-                Kindly Verify Email to Register
+              <Button
+                colorPalette="teal"
+                mb={3}
+                bgColor="#38b2ac"
+                onClick={submitHandler}
+                loading={loading}
+                disabled={!isEmailValid(email) || otpSent}
+                display={"flex"}
+                flexDirection={"column"}
+              >
+                Verify Email and Register
               </Button>
             </>
           )}
