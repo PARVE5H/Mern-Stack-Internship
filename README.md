@@ -1,7 +1,15 @@
 # 🚀 MERN Stack Internship – Codtech IT Solutions Pvt. Ltd.
 
-> **Company:** Codtech IT Solutions Pvt. Ltd. <br> > **Name:** Parvesh Kumar <br> > **Intern Id:** CT06DG1325 <br> > **Domain:** MERN Stack <br> > **Duration:** 6 weeks <br> > **Mentor:** Mr. Neela Santosh <br> > **Internship Mode:** Remote <br> > **Status:** 🟢 Ongoing <br>
 
+> **Company:** Codtech IT Solutions Pvt. Ltd.  
+> **Name:** Parvesh Kumar  
+> **Intern Id:** CT06DG1325  
+> **Domain:** MERN Stack  
+> **Duration:** 6 weeks  
+> **Mentor:** Mr. Neela Santosh  
+> **Internship Mode:** Remote  
+> **Status:** 🔵 Completed  
+ 
 ---
 
 ## 📌 About This Repository
@@ -15,7 +23,7 @@ This repository contains all the tasks and projects I’m completing during my *
 | Task 1   | Weather App                   | Fetch and display live weather data using a public API in React       | ✅ Completed                                             | [Preview](https://parve5h.github.io/vayutrack) |
 | Task 2   | Real-Time Chat App            | Build a real-time messaging app using React, Node.js, and Socket.IO   | ✅ Completed                                             | [Preview](https://chattrip.onrender.com)       |
 | Task 3   | Live Collaboration Tool       | Create a live multi-user collaboration whiteboard/editor              | ✅ Completed | [Preview](https://codesanvaad.onrender.com) |                                                |
-| Task 4   | Productivity Chrome Extension | Design a productivity manager using Chrome APIs and full MERN backend | ⏳ Pending                                               |                                                |
+| Task 4   | Productivity Chrome Extension | Design a productivity manager using Chrome APIs and full MERN backend | ✅ Completed                                               | No live preview. See [README](https://github.com/PARVE5H/Mern-Stack-Internship/blob/main/task4/README.md)                                              |
 
 ---
 
