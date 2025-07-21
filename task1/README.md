@@ -79,8 +79,7 @@ weatherwise/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/weatherwise.git
-cd weatherwise
+git clone https://github.com/parve5h/vayutrack.git
 ```
 
 ### 2. Install Dependencies

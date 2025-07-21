@@ -551,9 +551,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Lead Developer**: Parvesh Bansal
 
-- 📧 Email: parvesh063@gmail.com
-- 🌐 LinkedIn: [linkedin.com/in/parvesh-bansal](https://linkedin.com/in/parvesh-bansal)
-- 🐙 GitHub: [github.com/parvesh-bansal](https://github.com/parve5h)
+- 📧 [Email Me: parveshbansal063@gmail.com](mailto:parveshbansal063@gmail.com)  
+- 🌐 LinkedIn: [linkedin.com/in/parvesh-bansal](https://linkedin.com/in/parvesh-bansal)  
+- 🐙 GitHub: [github.com/parvesh-bansal](https://github.com/parve5h)     
+- ✖️ [X (Twitter)](https://twitter.com/parve5h)   
+- 📸 [Instagram](https://www.instagram.com/parve5h)    
+
+ ---
 
 
 ## 📸 Application Screenshots

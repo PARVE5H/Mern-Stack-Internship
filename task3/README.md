@@ -67,7 +67,7 @@ code-sanvaad/
    - Server tracks: Connected users in userSocketMap
    - Server broadcasts: User join/leave events
 
-## � Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
